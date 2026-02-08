@@ -201,6 +201,27 @@ h1 {
   max-width: 640px;
 }
 
+.event-list {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.event-list__title {
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.event-list ul {
+  padding-left: 18px;
+  color: var(--muted);
+  display: grid;
+  gap: 8px;
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.2em;
